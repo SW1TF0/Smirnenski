@@ -314,6 +314,32 @@
             .btn-main { padding: 15px 25px; font-size: 0.9rem; }
             .project-highlight h2 { font-size: 2rem; }
         }
+    .social-list {
+    list-style-type: none; /* Премахва точката пред елемента от списъка */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .facebook-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1877F2; /* Официалният син цвят на Facebook */
+    color: #ffffff; /* Бял текст */
+    text-decoration: none; /* Премахва подчертаването на линка */
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px 24px;
+    border-radius: 8px; /* Заоблени ъгли */
+    transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Лека сянка за дълбочина */
+  }
+  
+  .facebook-button:hover {
+    background-color: #166fe5; /* По-тъмно синьо при посочване */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* По-голяма сянка при посочване */
+  }
     </style>
 </head>
 <body>
@@ -598,7 +624,11 @@
                         <li><i class="fas fa-map-marker-alt"></i> <div><strong>Адрес:</strong> гр. Джебел, ул. „Васил Левски“ №19</div></li>
                         <li><i class="fas fa-phone-alt"></i> <div><strong>Телефон:</strong> 087 787 7249</div></li>
                         <li><i class="fas fa-user-tie"></i> <div><strong>Секретар:</strong> Мюзейен Хайрула</div></li>
-                        <li><a href="https://www.facebook.com/p/%D0%9D%D0%A7-%D0%A5%D1%80%D0%B8%D1%81%D1%82%D0%BE-%D0%A1%D0%BC%D0%B8%D1%80%D0%BD%D0%B5%D0%BD%D1%81%D0%BA%D0%B8-1924-%D0%B3%D1%80-%D0%94%D0%B6%D0%B5%D0%B1%D0%B5%D0%BB-100086459916972/">FACEBOOK</a></li>
+                        <li class="social-list">
+    <a class="facebook-button" href="https://www.facebook.com/p/%D0%9D%D0%A7-%D0%A5%D1%80%D0%B8%D1%81%D1%82%D0%BE-%D0%A1%D0%BC%D0%B8%D1%80%D0%BD%D0%B5%D0%BD%D1%81%D0%BA%D0%B8-1924-%D0%B3%D1%80-%D0%94%D0%B6%D0%B5%D0%B1%D0%B5%D0%BB-100086459916972/" target="_blank" rel="noopener noreferrer">
+        FACEBOOK
+    </a>
+</li>
                     </ul>
                 </div>
             </div>
